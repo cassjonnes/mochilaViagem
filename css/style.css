@@ -113,8 +113,9 @@ html {
     margin: 0 0 1em;
     width: 100%;
     box-sizing: border-box;
-    display: inline-flex;
-    align-items: center;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
     gap: 1em;
     font-size: 20px;
 }
@@ -130,3 +131,22 @@ html {
     font-weight: 400;
 }
 
+@media screen and (max-width:600px){
+    .conteudo{
+        padding: 2vh;
+        display: block;
+    }
+
+    .principal {
+        min-width: 100%;
+        display: flex;
+    }
+
+    .mochila {
+        display: none;
+    }
+
+    .lista{
+        margin-top: 2vh;
+    }
+}
