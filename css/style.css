@@ -131,7 +131,7 @@ html {
     font-weight: 400;
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:950px){
     .conteudo{
         padding: 2vh;
         display: block;
